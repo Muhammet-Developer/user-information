@@ -54,7 +54,6 @@ useEffect(() => {
 
 
   const handleCompleted = (id, completed) => {
-    console.log(completed);
     const newData = []
     todos.map(item =>{
       if(item.id===id){
